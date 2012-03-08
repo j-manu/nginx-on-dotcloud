@@ -34,7 +34,7 @@ http {
     access_log  /var/log/supervisor/nginx_access.log combined-realip;
     error_log  /var/log/supervisor/nginx_error.log error;
 
-    root    /home/dotcloud/current/;
+    root    /home/dotcloud/current/static;
 
     location / {
         if ( -f /home/dotcloud/current/maintenance) {
