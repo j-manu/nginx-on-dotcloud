@@ -114,8 +114,8 @@ move_to_approot
 
 # If you want to rebuild nginx from scratch and remove a previously good compile
 # uncomment this. Don't do this everytime, or else each build will be slow.
-msg "Step 1A: install nginx::"
-clean_nginx
+# msg "Step 1A: cleaup old nginx build::"
+# clean_nginx
 
 msg "Step 1: install nginx::"
 install_nginx
