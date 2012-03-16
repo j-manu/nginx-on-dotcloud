@@ -9,7 +9,7 @@ start_dir=`pwd`
 nginx_install_dir="$HOME/nginx"
 stage_dir="$start_dir/tmp"
 nginx_stage_dir="$stage_dir/stage"
-nginx_download_url="http://nginx.org/download/nginx-1.0.12.tar.gz"  #TODO configurable?
+nginx_download_url="http://nginx.org/download/nginx-1.0.14.tar.gz"  #TODO configurable?
 
 
 # functions
